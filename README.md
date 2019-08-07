@@ -5,7 +5,7 @@ Git branch practice
 ``` git checkout <branchName> ``` </br>
 if the branch <branchName> is not present then it will create new branch 
 
-2. pull update from another branch </br>
+2. pull update from branch </br>
 ``` git pull origin <branchName> ```
 
 3. push a branch into host </br>
