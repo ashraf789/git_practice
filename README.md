@@ -1,20 +1,22 @@
 # Brancing
 Git branch practice
 
-1. create branch : git checkout <branchName>
-if branch <branchName> is already not present on the system then it will create new branch 
+1. create a branch : </br>
+``` git checkout <branchName> ``` </br>
+if the branch <branchName> is not present then it will create new branch 
 
-2. pull update from another branch 
-git pull <anotherBranch>
+2. pull update from another branch </br>
+``` git pull origin <branchName> ```
 
-3. merge a branch 
-git merge <branchName>
+3. push a branch into host </br>
+``` git push origin <branchName> ```
 
-4. delete a branch 
-git branch -d <branchName>
+4. merge a branch </br>
+go to the branch where you want to merge then enter bellow command </br>
+`` git merge <branchName> ``
 
-5. delete branch from host 
-git push branch :<branchName>
+5. delete a branch </br>
+``` git branch -d <branchName> ```
 
-
-Note: (git push origin master) to push any update to host 
+6. delete branch from host </br> 
+`` git push branch :<branchName> ``
