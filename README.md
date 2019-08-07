@@ -1,4 +1,4 @@
-# Brancing
+# Branching
 Git branch practice
 
 1. create a branch : </br>
