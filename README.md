@@ -20,3 +20,13 @@ go to the branch where you want to merge then enter bellow command </br>
 
 6. delete branch from host </br> 
 `` git push branch :<branchName> ``
+
+# Commit 
+1. Show log 
+`` git log ``
+
+2. Show a commit 
+`` git show <commit_id> ``
+
+3. Show a commit like log
+`` git show <commit_id> --no-patch
