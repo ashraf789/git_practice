@@ -22,11 +22,11 @@ go to the branch where you want to merge then enter bellow command </br>
 `` git push branch :<branchName> ``
 
 # Commit 
-1. Show log 
+1. Show log </br>
 `` git log ``
 
-2. Show a commit 
-`` git show <commit_id> ``
+2. Show a commit </br>
+`` git show <commit_id> `` 
 
-3. Show a commit like log
-`` git show <commit_id> --no-patch
+3. Show a commit like log </br>
+`` git show <commit_id> --no-patch `` 
