@@ -13,20 +13,27 @@ if the branch <branchName> is not present then it will create new branch
 
 4. merge a branch </br>
 go to the branch where you want to merge then enter bellow command </br>
-`` git merge <branchName> ``
+``` git merge <branchName> ```
 
-5. delete a branch </br>
+5. delete a branch(local) </br>
 ``` git branch -d <branchName> ```
 
-6. delete branch from host </br> 
-`` git push branch :<branchName> ``
+6. delete branch from remote </br> 
+``` 
+git push origin --delete <branch>  # Git version 1.7.0 or newer
+git push origin :<branch>          # Git versions older than 1.7.0
+```
 
 # Commit 
 1. Show log </br>
-`` git log ``
+``` git log ```
 
 2. Show a commit </br>
-`` git show <commit_id> `` 
+``` git show <commit_id> ``` 
 
 3. Show a commit like log </br>
-`` git show <commit_id> --no-patch `` 
+``` git show <commit_id> --no-patch ```
+
+4. Show only commit message log </br>
+``` git log --pretty=oneline --abbrev-commit ```
+
