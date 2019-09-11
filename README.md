@@ -42,3 +42,5 @@ git push origin :<branch>          # Git versions older than 1.7.0
 4. Show only commit message log </br>
 ``` git log --pretty=oneline --abbrev-commit ```
 
+5. Fix the previous commit by removing it entirely
+``` git reset --hard HEAD^ ```
