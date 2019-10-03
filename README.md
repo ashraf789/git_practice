@@ -44,3 +44,7 @@ git push origin :<branch>          # Git versions older than 1.7.0
 
 5. Fix the previous commit by removing it entirely
 ``` git reset --hard HEAD^ ```
+
+6. Delete last commit from local reporsitory 
+``` git reset --hard HEAD^1 ```
+Here 1 is last one commit, if we want to delete last 3 commit then use 3
