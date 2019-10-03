@@ -42,9 +42,10 @@ git push origin :<branch>          # Git versions older than 1.7.0
 4. Show only commit message log </br>
 ``` git log --pretty=oneline --abbrev-commit ```
 
-5. Fix the previous commit by removing it entirely
+5. Fix the previous commit by removing it entirely </br>
 ``` git reset --hard HEAD^ ```
 
-6. Delete last commit from local reporsitory 
-``` git reset --hard HEAD^1 ```
-Here 1 is last one commit, if we want to delete last 3 commit then use 3
+6. Delete last 2 commit from local reporsitory </br>
+``` git reset --hard HEAD^2 ```
+
+    Here 2 is last two commit, if we want to delete last 3 commit then use 3
