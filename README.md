@@ -1,6 +1,11 @@
-# Branching
-Git branch practice
+# Basic command
+1. add remote url: </br>
+``` git remote add origin <remote-name> ```
 
+2. change remote url: </br>
+``` git remote set-url origin <new-remote-name> ```
+
+# Branching
 1. create a branch : </br>
 ``` git checkout -b <branchName> ``` 
 
@@ -49,3 +54,4 @@ git push origin :<branch>          # Git versions older than 1.7.0
 ``` git reset --hard HEAD^2 ```
 
     Here 2 is last two commit, if we want to delete last 3 commit then use 3
+    
