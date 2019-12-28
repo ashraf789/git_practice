@@ -5,6 +5,9 @@
 2. change remote url: </br>
 ``` git remote set-url origin <new-remote-name> ```
 
+3. "refusing to merge unrelated histories" </br>
+``` git pull origin master --allow-unrelated-histories ```
+
 # Branching
 1. create a branch : </br>
 ``` git checkout -b <branchName> ``` 
