@@ -11,18 +11,18 @@
 3. delete a remote </br>
 
 ``` 
-git remote rm remote_name
+    git remote rm remote_name
 ```
 ``` 
-# Example
+    # Example
 
-# Current remotes
-> origin  https://github.com/OWNER/REPO.git (fetch)
-> origin  https://github.com/OWNER/REPO.git (push)
-> test_remote  https://github.com/FORKER/REPO.git (fetch)
+    # Current remotes
+        origin  https://github.com/OWNER/REPO.git (fetch)
+        origin  https://github.com/OWNER/REPO.git (push)
+        test_remote  https://github.com/FORKER/REPO.git (fetch)
 
-# Delete test_remote
-git remote rm test_remote
+    # Delete test_remote
+        git remote rm test_remote
 
 ````
 
