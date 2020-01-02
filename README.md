@@ -8,6 +8,24 @@
 3. "refusing to merge unrelated histories" </br>
 ``` git pull origin master --allow-unrelated-histories ```
 
+3. delete a remote </br>
+
+``` 
+git remote rm remote_name
+```
+``` 
+# Example
+
+# Current remotes
+> origin  https://github.com/OWNER/REPO.git (fetch)
+> origin  https://github.com/OWNER/REPO.git (push)
+> test_remote  https://github.com/FORKER/REPO.git (fetch)
+
+# Delete test_remote
+git remote rm test_remote
+
+````
+
 # Branching
 1. create a branch : </br>
 ``` git checkout -b <branchName> ``` 
