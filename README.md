@@ -1,3 +1,16 @@
+# GIT Global
+
+Set global user name and email: </br>
+```
+git config --global user.name YourUserName
+git config --global user.email YourEmail
+```
+### Example:
+```
+git config --global user.name ashraf
+git config --global user.email example@gmail.com
+```
+
 # Basic command
 1. add remote url: </br>
 ``` git remote add origin <remote-name> ```
